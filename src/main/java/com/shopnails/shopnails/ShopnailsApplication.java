@@ -19,8 +19,11 @@ public class ShopnailsApplication {
 	}
 
 
+
+	//Crear una URL amigable de lo que va a salir en la pagina
 	@GetMapping ("/sena")
 
+	//Para traer informacion 
 	public InformacionSena messageView () {
 		
 		return new InformacionSena(LocalDate.now(), "Wilfer Ferney", "Rojas Beltran", "2721426");
